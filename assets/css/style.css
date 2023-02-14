@@ -24,7 +24,7 @@ h4,
 h5,
 h6 {
   color: var(--color-heading);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 a {
@@ -49,17 +49,6 @@ img {
   background-color: var(--color-base);
 }
 
-.full-height {
-  min-height: 100vh;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-}
-
 .shadow-effect {
   transition: all 0.5s;
 }
@@ -79,6 +68,13 @@ img {
   color: var(--color-base);
 }
 
+.bg-img img {
+  border: 15px solid var(--color-brand);
+}
+
+.bg-img img:hover {
+  border-color: var(--color-brand2);
+}
 /* ========== NAVBAR START ============ */
 .navbar {
   background-color: var(--color-base);
@@ -138,6 +134,18 @@ img {
 .link-custom:hover::after {
   width: 100%;
 }
+
+.full-height {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
 /* =========== BTN HOME PAGE END =========== */
 
 /* =========== ABOUT ME & PROJECTS & TOOLS CARD START ============= */
