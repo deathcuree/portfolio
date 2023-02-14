@@ -68,6 +68,13 @@ img {
   color: var(--color-base);
 }
 
+@media (max-width: 576px) {
+  .bg-img img {
+    width: 80%;
+    padding: 20%;
+  }
+}
+
 .bg-img img {
   border: 15px solid var(--color-brand);
 }
@@ -162,19 +169,25 @@ img {
   transform: scale(1.1);
 }
 
-/* =========== ABOUT ME & PROJECTS & TOOLS CARD START ============= */
+/* =========== ABOUT ME & PROJECTS & TOOLS CARD END ============= */
 
 /* SOCIAL ICONS */
-.social-icons {
-}
-
 .social-icons a {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background-color: var(--color-base);
   border-radius: 100px;
   font-size: 24px;
+  transition: all 0.2s ease-in-out; /* add a smooth transition */
+}
+
+.social-icons a i {
+  color: white;
+}
+
+.social-icons a:hover i {
+  color: var(--color-brand);
 }
