@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Grace's Portfolio</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- ============================ NAVBAR ================================ -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand mx-4" href="#">Grace Andaya</a>
         <button
@@ -113,13 +113,12 @@
           </div>
         </div>
       </section>
-
       <!-- ============= HOME END ================= -->
 
       <!-- ============== ABOUT ME START ============== -->
       <section
         id="about"
-        class="vh-80 my-3 px-lg-5 d-flex justify-content-center align-items-center"
+        class="full-height my-3 px-lg-5 d-flex justify-content-center align-items-center"
       >
         <div class="container">
           <div class="row pb-4" data-aos="fade-up">
@@ -135,16 +134,6 @@
                 Education
               </h3>
               <div class="row gy-4">
-                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                  <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>Science, Technology, & Engineering</h4>
-                    <p class="text-brand mb-2">
-                      Olongapo City National High School (2012 - 2016)
-                    </p>
-                    <p class="mb-0">Junior High School</p>
-                  </div>
-                </div>
-
                 <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                   <div class="bg-base p-4 rounded-4 shadow-effect">
                     <h4>Humanities & Social Sciences</h4>
@@ -175,8 +164,7 @@
                     <h4>TAMA Solutions Intern</h4>
                     <p class="text-brand mb-2">Aug-December 2022</p>
                     <p class="mb-0">
-                      Content Management System Using WordPress. Had the chance
-                      to handle different CMS websites of the government.
+                      Content Management System Using WordPress.
                     </p>
                   </div>
                 </div>
