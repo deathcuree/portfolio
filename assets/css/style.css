@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* ========================= CONSTANT VARIABLES ==================== */
 :root {
@@ -8,7 +8,7 @@
   --color-base2: #011c40;
   --color-brand: #08678c;
   --color-brand2: #074973;
-  --font-base: "Poppins";
+  --font-base: 'Poppins';
 }
 
 body {
@@ -128,7 +128,7 @@ img {
 }
 
 .link-custom::after {
-  content: "";
+  content: '';
   width: 0%;
   height: 2px;
   background-color: var(--color-brand);
@@ -169,6 +169,9 @@ img {
   transform: scale(1.1);
 }
 
+.custom-spacing h4 {
+  margin-right: 10px;
+}
 /* =========== ABOUT ME & PROJECTS & TOOLS CARD END ============= */
 
 /* SOCIAL ICONS */
